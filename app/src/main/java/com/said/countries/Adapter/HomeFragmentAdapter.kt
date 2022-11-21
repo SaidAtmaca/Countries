@@ -56,6 +56,7 @@ class HomeFragmentAdapter(private val countryList: Model) :
 
     }
         override fun getItemCount(): Int { return countryList.data.size }
+
     inner class MyViewHolder(val binding: RecyclerviewRowBinding) : RecyclerView.ViewHolder(binding.root){
 
     }
